@@ -1,0 +1,67 @@
+Parent/child relationship
+All HTML files must have
+    <!DOCTYPE> declaration tag
+    HTML
+    Head element
+    Body element
+
+All elements can have attributes
+any element may be assigned an ID
+
+Comments: <!-- This is a comment -->
+
+What goes in head? Metadata, tab icon image, wont be shown on the page, title, extra
+    files to link to page: CSS, JS, Etc. 
+             body? Stuff that will be shown on the page: headers, paragraphs, hyperlinks, etc.
+By default, the browser will ignore any extra space: new lines, space
+
+Paragraphs. just basic text, no different than without it, used for containing text only
+    double tags
+
+Break tag (new line)
+    <br> creates a new line on the page
+
+<pre> tag doesn't format text. yes has closing tag
+
+tags you should know:
+header: makes text bigger and bold, h1 is biggest, h6 smalest
+title: describes title of webpage, goes inside head tag, seen on page's tab, won't show up on content
+span vs. div: span takes up as much space as its children, used for containing words in webpage
+div: takes up as much space as its parent, used for dividing sections of content in page
+both used to "wrap" elements
+
+<img> element: contains a "src" attribute that is link to image
+
+LETS GET STYLISH (CSS)
+    plain HTML text looks ugly
+    CSS lets us style our pages
+    stands for cascading style sheets
+    an extension of html
+3 ways to style
+    <style> element
+    <style> attribute
+    CSS file (standard option)
+    best pratice is to put CSS all in one file
+CSS basics
+    we use descriptors to alter an element's property
+    property: value;
+    all separated by semicolons
+CSS selectors
+    to describe, we must first "select" using:
+    p element selectors
+    * universe selectors
+    p, div, span, combination selectors
+    selector{
+        property: value;
+        property: value;
+    }
+ID, classes, elements
+    set 'id' or 'class' attribute using quotation mark
+    in a stylesheet or style element: # id or .class or element; set the properties in curly brackets
+Element boundaries
+    bounding box
+    rectangles
+    default size is subjective to: 
+        inline: children/content/children
+        block: parent
+    All elements have width and height
