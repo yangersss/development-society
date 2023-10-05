@@ -1,0 +1,22 @@
+a{
+    font-size: 40px;
+    color: blue;
+}
+a:hover{
+    color: white;
+}
+div{
+    width: 50%;
+    height: 10rem;
+    background-color: orange;
+}
+div:hover{
+    width: 100%;
+    background-color: purple;
+}
+/* you can give different divs different ids, identified by # 
+or assign a class to elements, referencing them in CSS using a .*/
+div#example{
+    height: 10rem;
+    background-color: aquamarine;
+}

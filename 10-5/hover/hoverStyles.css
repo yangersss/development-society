@@ -1,0 +1,39 @@
+.square{
+    width: 100px;
+    height: 100px;
+    
+    position: relative;
+
+    animation: myAnim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    left: 0;
+}
+.hoverCircle{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    
+    position: relative;
+}
+.hoverCircle:hover{
+    border-radius: 50%;
+    background-color: blue;
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+@keyframes myAnim{
+    0%{
+        left: 0;
+        background-color: bisque;
+    }
+    50%{
+        left: 100%;
+        background-color: blueviolet;
+    }
+    100%{
+        left: 0;
+        background-color: turquoise;
+    }
+}

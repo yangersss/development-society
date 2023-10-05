@@ -1,0 +1,41 @@
+Recall
+    CSS goes from top to bottom
+    we can use selectors
+CSS units
+    pixels, inches, cm, mm
+Relative units
+    % (relative to parent element)
+    em(relative to font size of element)
+    rem(relative to font size of root element)
+Viewports: phone vs tablet vs...
+CSS Colors
+    names, RBG, hex, etc.
+CSS Overriding
+    what happens when a property is written twice?
+        the second descriptor will be executed
+Exclamation mark enter
+Ctrl space (autocomplete)
+Combining selectors
+CSS Specificity
+    The selector with the highest specificity value will "win"
+Being more specific
+    To universal naming convention
+    Use dash case or camel case for naming
+Advanced CSS
+-------
+Pseudo class
+    Selectors that select elements in a specific state
+    Ex: when elements are hovered 
+    div:hover{}
+Position elements
+    fixed (elements dont conform to rest of elements on page)
+    relative (default, relative parent and siblings)
+    sticky (ex: nav bars)
+descriptors 
+Top, bottom, left, right
+CSS transition
+    values that change over time
+    four descriptor: property, duration, timing (linear, ease, etc.) initial delay (optional)
+Keyframes animation
+    used to create animations, more conrolled than transitions
+    lets define when property or properties should change
