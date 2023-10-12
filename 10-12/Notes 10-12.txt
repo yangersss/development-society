@@ -1,0 +1,21 @@
+meta viewport
+    what does this line do?
+    makes sure everything fits on our screen on all devices
+Recall: html basics
+Flexbox
+    display: flex;
+    used for spacing in 1D
+        horizontal(row) vs vertical (column)
+    justify-content (main axis)
+    align-items(secondary/cross axis)
+CSS Grid
+    used for 2D spacing
+    display: grid;
+    gird-template-columns
+    grid-template-rows
+    use grid-template to 
+Center a div
+Different media queries
+    account for users on different devices
+    consists of a media type and can contain one or more expressions, which resolve to either true or false.
+Chrome dev tools for device compatibility
