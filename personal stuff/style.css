@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#logo {
+    width: 50px;
+    height: auto;
+}
+
+.hero {
+    padding: 50px;
+    text-align: center;
+    background-image: linear-gradient(to right, #3498db, #9b59b6);
+    color: #fff;
+}
+
+button.listen-now {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.listen-now:hover {
+    background-color: #e74c3c;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.social-icon {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#twitter {
+    background-color: #00acee;
+    color: #fff;
+}
+
+#instagram {
+    background-color: #e4405f;
+    color: #fff;
+}
+
+#youtube {
+    background-color: #c4302b;
+    color: #fff;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
