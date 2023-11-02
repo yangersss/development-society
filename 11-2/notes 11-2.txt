@@ -1,0 +1,60 @@
+html-structure
+css-looks
+js-functionality
+how to add js
+    new file with js extension
+    script element inside head element
+    can also add <script> tag inside
+Browser parsing
+    parses from top to bottom of html
+    if we reference an element in js before we define it, it won't exist
+Defer vs async
+    both attributes of the script element 
+    defer will wait until the entire doc is parsed before running the script
+    async will start parsing script and html file at same time. depending on which code finishes first, may produce unexpected results
+What is console?
+    log is a method of console
+Other built-in
+    document
+    alert
+    window
+    JSON
+Basics-variable
+    const, let, and var are keywords we can use
+    let: standard way
+    const: can be assigned once
+    var: old code, don't use it!
+Declare a variable
+    camelCase
+    possible to declare without keyword, but makes code harder to read
+    end with semicolon
+Comments:
+    same as java // single line /* multi line */
+Comparative operators
+    equal: ==
+    strict equal: === same value and same TYPE
+Scope
+    Same as java
+Function/method
+    keyword Function
+Anonymouse functionality
+    don't give function identifier, anon function
+    arrow function
+Hoisting
+    all declarations (functions, vars, etc.) are "hoisted to the top when it runs
+Data types: string, number, bigInt, Boolean, undefined, null, symbol, object
+NULL vs undefined
+    udnefined is value of a var that has been declared but not initialized
+Primitive data dypes
+    has not methods or properties
+    immtable
+Literals
+    textual representation of value
+aRRAYS/lists
+    arrays are fixed size
+    all arays are lists, size is mutable
+        Declaring using square brackets
+    start from index 0
+for loops and enhanced for loops
+USING dom
+    How we incorporate js into the webpage
